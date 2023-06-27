@@ -23,6 +23,8 @@ body {
 
 
   main {
+    max-width: 375px;
+    margin: auto;
     .section-img{
       width: 375px;
       height: 373px;
@@ -52,9 +54,11 @@ body {
       background-size: contain;
     }
     .section-body {
+      width: 100%;
         padding: 20px;
       text-align: center;
       color: white;
+      margin: auto;
       h1 {
         font-family: $font-family_poppins;
         font-weight: 600;
@@ -128,7 +132,7 @@ body {
    
         main{
 
-         
+         max-width: none;
             display: flex;
             flex-direction: row;
             padding: 30px;

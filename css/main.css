@@ -11,6 +11,10 @@ html {
 body {
   background-color: hsl(257, 40%, 49%);
 }
+body main {
+  max-width: 375px;
+  margin: auto;
+}
 body main .section-img {
   width: 375px;
   height: 373px;
@@ -39,9 +43,11 @@ body main .div-img {
   background-size: contain;
 }
 body main .section-body {
+  width: 100%;
   padding: 20px;
   text-align: center;
   color: white;
+  margin: auto;
 }
 body main .section-body h1 {
   font-family: "Poppins", sans-serif;
@@ -107,6 +113,7 @@ body footer ul li:hover img {
     margin: auto;
   }
   body main {
+    max-width: none;
     display: flex;
     flex-direction: row;
     padding: 30px;
